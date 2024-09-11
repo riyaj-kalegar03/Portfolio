@@ -77,7 +77,7 @@ header {
 }
 /* header part*/
 .container .left {
-  /* background-color: rgba(211, 206, 206, 0.078); */
+  background-color: rgba(211, 206, 206, 0.078);
   border-radius: 10px;
 }
 .container .left .branding {
