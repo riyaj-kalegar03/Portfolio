@@ -183,6 +183,9 @@ header nav .branding a {
   line-height: 1.9rem;
   margin-bottom: 2rem;
 }
+.hero .right .right-button a {
+  text-decoration: none;
+}
 
 section {
   padding: 6rem 0;
@@ -453,6 +456,9 @@ section.freelancer p {
   font-size: 1.3rem;
   margin-bottom: 2rem;
   font-family: "Lato", sans-serif;
+}
+section.freelancer a {
+  text-decoration: none;
 }
 
 /* contact us part*/
@@ -896,7 +902,7 @@ footer .copyright span {
   .site-main-wrapper .branding-top {
     color: white;
     position: absolute;
-    top: 30px;
+    top: 25px;
     left: 20px;
     z-index: 11;
     background: none;
