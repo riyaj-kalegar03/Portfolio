@@ -75,6 +75,11 @@ header {
     max-width: 1152px;
   }
 }
+.animation {
+  animation: animation linear;
+  animation-timeline: view();
+  animation-range: entry 0%;
+}
 /* header part*/
 .container .left {
   background-color: rgba(211, 206, 206, 0.078);
@@ -673,6 +678,17 @@ footer .copyright span {
   color: black;
 }
 
+@keyframes animation {
+  from {
+    opacity: 0;
+    scale: 0.4;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
 @media (max-width: 1024px) {
   .video-container {
     height: 55vh;
@@ -749,6 +765,7 @@ footer .copyright span {
   header {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 0 100%);
   }
+
   section.about .about-me-img {
     height: 360px;
   }
@@ -767,6 +784,11 @@ footer .copyright span {
 }
 
 @media (max-width: 576px) {
+  .animation {
+    animation: animation linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+  }
   .mobile-nav .social {
     margin-top: 11rem;
   }

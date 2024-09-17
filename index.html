@@ -28,19 +28,20 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
 
   <body>
     <div class="site-main-wrapper">
-      <div class="branding-top">
+      <div class="branding-top animate-top">
         <h2><span>The</span>Dev</h2>
       </div>
-      <button class="hamberger">
+      <button class="hamberger animate-top">
         <img class="ham-img" src="./images/hamberger.svg" alt="" />
       </button>
 
       <div class="mobile-nav">
-        <div class="branding">
+        <div class="branding animate">
           <h2><span>The</span>Dev</h2>
         </div>
         <button class="times"><img src="./images/times.svg" alt="" /></button>
@@ -70,19 +71,19 @@
       </div>
       <header class="video-container ">
        
-        <video autoplay muted loop id="myvideo" data-aos="zoom-out-down">
+        <video autoplay muted loop id="myvideo" >
           <source src="./video/bg video-vmake.mp4" type="video/mp4" />
         </video>
  
         <div class="container">
           <nav
             id="main-nav"
-            class="flex items-center justify-center"
-            data-aos="fade-down"
+            class="flex items-center justify-center navbar"
+            
           >
             <div class="left flex items-center justify-between">
               <div class="branding">
-                <a href="" class="flex"
+                <a href="" class="flex animate"
                   ><h1><span>The</span>Dev</h1></a
                 >
               </div>
@@ -99,7 +100,7 @@
 
           <div class="hero flex items-center justify-between">
            
-            <div class="right flex-1" data-aos="fade-up">
+            <div class="right flex-1 animate" >
               <h6>Hello <span>There</span>,</h6>
               <div class="ani-container">
                 <div class="typing"><span>I'm</span> Riyaj Kalegar</div>
@@ -129,7 +130,7 @@
        
       </header>
 
-      <section id="about" class="about" data-aos="fade-up">
+      <section id="about" class="about animation">
         <div class="container flex items-center about-inner-wrap">
           <div class="flex-1">
             <img class="about-me-img" src="./images/profile photo bw.jpg" alt="" />
@@ -170,16 +171,16 @@
           </div>
         </div>
       </section>
-      <section id="blog" class="blog" data-aos="fade-up">
+      <section id="blog" class="blog " >
         <div class="container">
-          <h1 class="section-heading"><span>My</span> Expertise</h1>
+          <h1 class="section-heading animate"><span>My</span> Expertise</h1>
           <p>
             Experienced in crafting interactive web applications with
             cutting-edge front-end and back-end technologies
           </p>
 
           <div class="card-wrapper" >
-            <div class="card" data-aos="fade-up">
+            <div class="card animation" >
               <div class="img-wrapper">
                 <img src="./images/frontend img.jpg" alt="" />
               </div>
@@ -196,7 +197,7 @@
               </div>
             </div>
 
-            <div class="card" data-aos="fade-up">
+            <div class="card animation" >
               <div class="img-wrapper">
                 <img src="./images/backend img.jpg" alt="" />
               </div>
@@ -217,14 +218,14 @@
         </div>
       </section>
 
-      <section id="reviews" class="reviews" data-aos="fade-up">
+      <section id="reviews" class="reviews animation" >
         <div class="container">
-          <h1 class="section-heading"><span>Ex</span>periences</h1>
+          <h1 class="section-heading animate"><span>Ex</span>periences</h1>
           <p>
             Extensive experience in full-stack development using modern web
             technologies
           </p>
-          <div class="slider">
+          <div class="slider ">
             <div class="slide">
               <img src="./images/dlithe.jpeg" alt="" />
               <p>
@@ -239,23 +240,23 @@
         </div>
       </section>
 
-      <section id="work" class="work" data-aos="fade-up">
+      <section id="work" class="work " >
         <div class="container">
-          <h1 class="section-heading"><span>My</span> Work</h1>
+          <h1 class="section-heading animate"><span>My</span> Work</h1>
           <p>
             Developing responsive web applications with modern front-end and
             back-end technologies
           </p>
 
           <div class="card-wrapper">
-            <div class="card" data-aos="fade-up">
+            <div class="card animation" >
               <div class="overlay">
                 <span>HostHaven</span>
                 <p>"HostHeven is a web application that helps users find and list lodges and hotels, developed using Node.js, Express.js, MongoDB, and EJS for the frontend."</p>
               </div>
               <img src="./images/hostheaven.png" alt="" />
             </div>
-            <div class="card" data-aos="fade-up">
+            <div class="card animation">
               <div class="overlay">
                 <span>MERN-Gpt</span>
                 <p>"This is a MERN Stack Project, With Advanced Authentication and An AI Chatbot SaaS Platform With React, Node, MongoDB, Express, Typescript"</p>
@@ -263,7 +264,7 @@
               <img src="./images/mern-gpt.png" alt="" />
               
             </div>
-            <div class="card" data-aos="fade-up">
+            <div class="card animation">
               <div class="overlay">
                 <span>LRMS</span>
                 <p>"The Lawyer Record Management System is a web application for managing lawyer records
@@ -271,7 +272,7 @@
               </div>
               <img src="./images/lrms.png" alt="" />
             </div>
-            <div class="card" data-aos="fade-up">
+            <div class="card animation" >
               <div class="overlay">
                 <span>Stock Broker</span>
                 <p>"This project is a real-time stock broker client web dashboard that
@@ -285,7 +286,7 @@
           </div>
         </div>
       </section>
-      <section class="freelancer" data-aos="fade-up">
+      <section class="freelancer animation" >
         <h1>I Am Available For Freelancer.</h1>
         <p>
           Available for freelance work in web development, specializing in both
@@ -294,17 +295,17 @@
         <a href="./resume/Riyaj Kalegar.pdf" download="resume"> <button class="btn btn-primary">DOWNLOAD CV</button></a>
                
       </section>
-      <section id="contact" class="contact" data-aos="fade-up">
+      <section id="contact" class="contact " >
         <div class="container">
-          <h1 class="section-heading">Contact <span>Us</span></h1>
+          <h1 class="section-heading animate">Contact <span>Us</span></h1>
           <p>Reach out to us for inquiries, support, or feedback assistance</p>
           <div class="card-wrapper">
-            <div class="card">
+            <div class="card animation">
               <i class="fa-solid fa-phone"></i>
               <h1>Call Us On</h1>
               <h6>91+ 7411142903</h6>
             </div>
-            <div class="card">
+            <div class="card animation">
               <i class="fa-solid fa-envelope"></i>
               <h1>Email Us At</h1>
               <h6>work.riyajkalegar@gmail.com</h6>
@@ -312,15 +313,15 @@
           </div>
         </div>
       </section>
-      <footer >
+      <footer class="animation" >
         
         <div class="logo">
           <a href="" class="flex">
-            <h1 class="footer-logo"><span>The</span>Dev</h1></a
+            <h1 class="footer-logo animate"><span>The</span>Dev</h1></a
           >
         </div>
         <div class="social-links" >
-          <div class="footer-socials" >
+          <div class="footer-socials animation" >
             <a href="https://www.linkedin.com/in/riyaj-kalegar-269754256/"
             ><i class="fa-brands fa-linkedin"></i
           >
@@ -341,7 +342,7 @@
               ><i class="fa-solid fa-envelope"></i
             ></a>
           </div>
-          <div class="nav-links" >
+          <div class="nav-links animation" >
             <a href="#">HOME</a>
             <a href="#about">ABOUT</a>
             <a href="#blog">EXPERTISE</a>
@@ -373,12 +374,14 @@
     <!--our aos data-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init({
-        disable: window.innerWidth < 768,
-        offset: 350,
-        duration: 900,
-        delay: 50,
-      });
+      ScrollReveal({ reset: true,
+        distance: "60px", 
+        duration: 1500, 
+        delay: 400
+        });
+
+      ScrollReveal().reveal('.animate', { delay: 500, origin:"left" });
+      ScrollReveal().reveal('.navbar,.animate-top', { delay: 500  , origin: "top"});
     </script>
   </body>
 </html>
