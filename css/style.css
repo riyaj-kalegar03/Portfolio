@@ -1,5 +1,6 @@
 @import "utilities.css";
 @import "utilities2.css";
+@import "cursor.css";
 @import "style copy.css";
 :root {
   --primary: #3dcfd3;
@@ -12,6 +13,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  /* cursor: url("/images/cursor.png"), auto; */
 }
 
 html {
@@ -44,7 +46,7 @@ header {
 }
 .clip-path {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
-  transition: all 0.8s ease-in;
+  transition: all 1s ease-in;
 }
 .container {
   max-width: 1152px;
