@@ -589,7 +589,7 @@ footer .copyright span {
 }
 .hamberger {
   position: absolute;
-  top: 40px;
+  top: 38px;
   right: 40px;
   z-index: 11;
   background: none;
@@ -600,7 +600,7 @@ footer .copyright span {
 }
 
 .hamberger img {
-  width: 30px;
+  width: 25px;
 }
 .display-ham {
   display: none;
